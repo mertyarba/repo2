@@ -21,10 +21,10 @@
 	// == equal
 	// != not equal
 	
-	$age = 5;
+	$age = 4;
 	
 	// if age is smaller than or equal to 6, then you can sleep at lunch time
-	if ($age <= 6){
+	if ($age <= 5){
 		
 	
 		//its true
@@ -32,6 +32,21 @@
 		
 	}else{
 		//its false
-		echo "no, you are at school";
+		echo " no, you are at school";
 	}
+?>
+
+<br>
+
+<?php
+
+	//loop
+	
+	for ($i=1; $i <= $age; $i=$i+1){
+		
+		//if condition is true 
+		echo $i;
+		
+	}
+
 ?>
