@@ -50,3 +50,11 @@
 	}
 
 ?>
+
+<br>
+
+<?php
+
+	echo  date('jS \of F Y G:i:s A');
+
+?>
